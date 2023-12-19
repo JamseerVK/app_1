@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Jamseervk_app_1_1702991916917-push-trigger-input-set
+  identifier: Build_Jamseervk_app_1_1702991916917pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Jamseervk_app_1_1702991916917
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
